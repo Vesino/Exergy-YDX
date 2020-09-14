@@ -106,4 +106,15 @@ html {
 }
 .data-asimilation {
   padding: 3em;
+  position: relative;
+}
+.data-icon {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  right: 42%;
+  color: white;
+  margin: 1em 0;
 }
