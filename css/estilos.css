@@ -1,13 +1,150 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.b-page {
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+.b-page_body {
+  margin: 0;
+  font: .8em Arial,Helvetica,sans-serif;
+  color: #000000;
+  background: #ffffff;
+}
+.head {
+  position: absolute;
+}
+.header2 {
+  position: relative;
+  z-index: 100;
+}
+.header2__main {
+  z-index: 10;
+  display: table;
+  height: 70px;
+  background: 0 0;
+  border-bottom: none;
+}
+.button2, .foot, .grid__row, .header2__main, .input__box, .input__control, .input__hint, .popup, .screen {
+  box-sizing: border-box;
+}
+.header2__logo {
+  display: table-cell;
+}
+.header2__logo_chars_lat .link {
+  width: 116px;
+}
+.header2__logo .link {
+  position: relative;
+  display: block;
+  width: 130px;
+  height: 70px;
+  outline: 0;
+}
+.link_theme_normal {
+  color: #04b;
+}
+.link {
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+  -webkit-transition: color .15s ease-out;
+  transition: color .15s ease-out;
+}
+.i-ua_inlinesvg_yes .header2__logo .image {
+  background-image: none !important;
+}
+.header2__logo_chars_lat .image {
+  height: 44px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header2__logo .image {
+  height: 34px;
+  position: relative;
+  top: auto;
+  left: auto;
+  width: auto;
+  margin-left: 25px;
+}
+.image {
+  font: 0/0 a;
+  border: 0;
+}
+.header2__middle {
+  display: table-cell;
+  width: 100%;
+  vertical-align: top;
+}
+.header2__middle-wrap {
+  position: relative;
+  width: 100%;
+  margin-top: 19px;
+}
+html[lang="be"] .service-name, html[lang="en"] .service-name, html[lang="kk"] .service-name {
+  margin-top: 5px;
+}
+.service-name_chars_lat {
+  height: 44px;
+  margin-top: 1px;
+  margin-left: 6px;
+}
+.service-name {
+  display: inline-block;
+  margin-right: 70px;
+  vertical-align: top;
+  outline: 0;
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+}
+.service-name .image {
+  max-height: 100%;
 }
 
-html {
-  font-family: 'Montserrat', sans-serif;
+.page-content {
+  position: relative;
+  margin: 0 auto 10px;
 }
-.container {
+.i-font_face_textbook {
+  font-family: textbook;
+}
+.screen::after {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  width: 100%;
+  height: 0;
+  box-shadow: 0 0 30px 10px rgba(0,0,0,.8);
+}
+.popup_visibility_visible, .screen::after {
+  display: block;
+}
+.button2::before, .button2_theme_promo::before, .popup_theme_ffffff::before, .screen::after {
+  bottom: 0;
+  content: '';
+}
+.screen__back {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.s-bg-how {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://i.vimeocdn.com/video/633410381.jpg?mw=800&mh=450");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.s-bg-accuracy__image, .s-bg-accuracy__markers, .s-bg-detail__image, .s-bg-detail__markers, .s-bg-how__video {
+  min-width: 100%;
+  min-height: 100%;
+}
+/* .container {
     height: 100vh;
     width: 100%;
     position: relative;
@@ -103,4 +240,4 @@ html {
   right: 42%;
   color: white;
   margin: 1em 0;
-}
+} */
