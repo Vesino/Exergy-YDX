@@ -385,7 +385,8 @@ html[lang=kk] .service-name {
 }
 .static-text {
  font-size:1.4em;
- line-height:1.5em
+ line-height:1.5em;
+ /* text-shadow: 0px 0.5px 0px black; */
 }
 .static-text_size_small {
  font-size:1em;
@@ -886,10 +887,16 @@ html[lang=kk] .service-name {
  /* background: fixed center no-repeat */
 }
 .s-top-how {
- width:70px;
- height:60px;
- margin:-45px auto 10px;
- background: url("../img/exergyblncomini2.png");
+ width: 300px;
+ height: 270px;
+ margin: 0 auto 0;
+ background: url("../img/EXERGYLOGO.png");
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+position: relative;
+
 }
 .section {
  position:relative;
