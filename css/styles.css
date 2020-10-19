@@ -128,18 +128,21 @@ html[lang=kk] .service-name {
 }
 .s-bg-satellite__satellite-big {
  position:absolute;
- top:52%;
+ top:50%;
  left:50%;
  width:122px;
  height:132px;
- margin-left:-160px;
- background:url(//yastatic.net/promo-pogoda/_/01I9779kJzvem3RlE1L5QO8CJLw.png) center no-repeat;
- -webkit-transition:-webkit-transform 2s ease .6s;
+ margin-left:-15%;
+ background:url("../img/weatherRadar.png") center no-repeat;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: contain;
+ /* -webkit-transition:-webkit-transform 2s ease .6s;
  transition:-webkit-transform 2s ease .6s;
  transition:transform 2s ease .6s;
  transition:transform 2s ease .6s,-webkit-transform 2s ease .6s;
  -webkit-animation:satellite-big 4s ease 3.3s infinite;
- animation:satellite-big 4s ease 3.3s infinite
+ animation:satellite-big 4s ease 3.3s infinite */
 }
 @-webkit-keyframes satellite-big {
  0%,
@@ -163,20 +166,56 @@ html[lang=kk] .service-name {
   transform:translate3d(0,10%,0)
  }
 }
+.s-bg-satellite__satellite-sat {
+    position:absolute;
+    top:20%;
+    left:50%;
+    width:122px;
+    height:132px;
+    margin-left:15%;
+    background:url("../img/satellite.png") center no-repeat;
+    /* -webkit-transition:-webkit-transform 2.2s ease .6s;
+    transition:-webkit-transform 2.2s ease .6s;
+    transition:transform 2.2s ease .6s;
+    transition:transform 2.2s ease .6s,-webkit-transform 2.2s ease .6s;
+    -webkit-animation:satellite-small 4s linear 3.7s infinite;
+    animation:satellite-small 4s linear 3.7s infinite; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.s-bg-satellite__satellite-avion {
+    position:absolute;
+    top:35%;
+    left:50%;
+    width:122px;
+    height:132px;
+    margin-left: 0%;
+    background:url("../img/avion.png") center no-repeat;
+    /* -webkit-transition:-webkit-transform 2.2s ease .6s;
+    transition:-webkit-transform 2.2s ease .6s;
+    transition:transform 2.2s ease .6s;
+    transition:transform 2.2s ease .6s,-webkit-transform 2.2s ease .6s;
+    -webkit-animation:satellite-small 4s linear 3.7s infinite;
+    animation:satellite-small 4s linear 3.7s infinite; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .s-bg-satellite__satellite-small {
  position:absolute;
- top:39%;
+ top:65%;
  left:50%;
- width:140px;
- height:349px;
- margin-left:-400px;
+ width:122px;
+ height:132px;
+ margin-left:-30%;
  background:url("/img/weatherStation.png") center no-repeat;
- -webkit-transition:-webkit-transform 2.2s ease .6s;
+ /* -webkit-transition:-webkit-transform 2.2s ease .6s;
  transition:-webkit-transform 2.2s ease .6s;
  transition:transform 2.2s ease .6s;
  transition:transform 2.2s ease .6s,-webkit-transform 2.2s ease .6s;
  -webkit-animation:satellite-small 4s linear 3.7s infinite;
- animation:satellite-small 4s linear 3.7s infinite;
+ animation:satellite-small 4s linear 3.7s infinite; */
  background-position: center;
  background-repeat: no-repeat;
  background-size: contain;
@@ -575,9 +614,14 @@ html[lang=kk] .service-name {
  transform:translate3d(0,0,0)
 }
 .i-_text{
+    text-align: center;
+    width: 122px;
+    height: 30px;
     font-size:15px;
     line-height:24px;
-    opacity:1;
+    display: block;
+
+    /* opacity:1;
     -webkit-transition:opacity .2s linear,-webkit-transform .3s cubic-bezier(0,0,.28,1.13);
     transition:opacity .2s linear,-webkit-transform .3s cubic-bezier(0,0,.28,1.13);
     transition:transform .3s cubic-bezier(0,0,.28,1.13),opacity .2s linear;
@@ -585,9 +629,9 @@ html[lang=kk] .service-name {
     -webkit-transition-delay:.5s;
     transition-delay:.5s;
     -webkit-transform:translate3d(0,0,0);
-    transform:translate3d(0,0,0);
+    transform:translate3d(0,0,0);*/
     position: absolute;
-    top: 75%
+    top: 100%;
 }
 .slide_visible_yes .s-feature__text {
  opacity:1;
