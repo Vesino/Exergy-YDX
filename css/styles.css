@@ -128,11 +128,11 @@ html[lang=kk] .service-name {
 }
 .s-bg-satellite__satellite-big {
  position:absolute;
- top:50%;
- left:50%;
+ top:60%;
+ right:30%;
  width:122px;
  height:132px;
- margin-left:-15%;
+ margin-left:0;
  background:url("../img/weatherRadar.png") center no-repeat;
  background-position: center;
  background-repeat: no-repeat;
@@ -169,10 +169,10 @@ html[lang=kk] .service-name {
 .s-bg-satellite__satellite-sat {
     position:absolute;
     top:20%;
-    left:50%;
+    right:30%;
     width:122px;
     height:132px;
-    margin-left:15%;
+    margin-left:0;
     background:url("../img/satellite.png") center no-repeat;
     /* -webkit-transition:-webkit-transform 2.2s ease .6s;
     transition:-webkit-transform 2.2s ease .6s;
@@ -186,8 +186,8 @@ html[lang=kk] .service-name {
 }
 .s-bg-satellite__satellite-avion {
     position:absolute;
-    top:35%;
-    left:50%;
+    top:20%;
+    left:30%;
     width:122px;
     height:132px;
     margin-left: 0%;
@@ -204,12 +204,12 @@ html[lang=kk] .service-name {
 }
 .s-bg-satellite__satellite-small {
  position:absolute;
- top:65%;
- left:50%;
+ top:60%;
+ left:30%;
  width:122px;
  height:132px;
- margin-left:-30%;
- background:url("/img/weatherStation.png") center no-repeat;
+ margin-left:0;
+ background:url("../img/weatherStation.png") center no-repeat;
  /* -webkit-transition:-webkit-transform 2.2s ease .6s;
  transition:-webkit-transform 2.2s ease .6s;
  transition:transform 2.2s ease .6s;
@@ -219,6 +219,20 @@ html[lang=kk] .service-name {
  background-position: center;
  background-repeat: no-repeat;
  background-size: contain;
+}
+@media screen and (max-width: 735px) {
+    .s-bg-satellite__satellite-avion {
+        left: 15%;
+    }
+    .s-bg-satellite__satellite-sat {
+        right: 15%;
+    }
+    .s-bg-satellite__satellite-small {
+        left: 15%;
+    }
+    .s-bg-satellite__satellite-big {
+        right: 15%;
+    }
 }
 .s-bg-prediction,
 .s-bg-station {
@@ -428,7 +442,7 @@ html[lang=kk] .service-name {
 .static-text {
  font-size:1.4em;
  line-height:1.5em;
- /* text-shadow: 0px 0.5px 0px black; */
+ color: #58606D;
 }
 .static-text_size_small {
  font-size:1em;
