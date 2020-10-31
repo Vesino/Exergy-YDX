@@ -1511,10 +1511,10 @@ html.utilityfocus .button2_theme_promo.button2_pressed_yes.button2_focused_yes:n
  -webkit-transform:translate3d(0,0,0);
  transform:translate3d(0,0,0)
 }
-.i-ua_platform_ios.b-page__body {
+.i-ua_platform_ios.b-pagina__body {
  cursor:pointer
 }
-.b-page__body {
+.b-pagina__body {
  margin:0;
  font:.8em Arial,Helvetica,sans-serif;
  color:#000;
@@ -1524,7 +1524,7 @@ html.utilityfocus .button2_theme_promo.button2_pressed_yes.button2_focused_yes:n
 .input_size_m .input__control {
  line-height:32px
 }
-.b-page {
+.b-pagina {
  -webkit-font-smoothing:antialiased;
  -moz-osx-font-smoothing:grayscale
 }
@@ -1685,4 +1685,21 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
 .page-content {
  position:relative;
  margin:0 auto 10px
+}
+
+.earths-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.earths-container img {
+    margin-top: 3rem;
+}
+@media screen and (max-width: 649px){
+    #earths {
+        height: 900px;
+    }
 }
