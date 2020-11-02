@@ -310,8 +310,10 @@ html[lang=kk] .service-name {
 }
 
 .skycam-images-from {
-    display: flex;
-    flex-wrap: wrap;
+ display: flex;
+ flex-wrap: wrap;
+ height: 50%;
+ position: relative;
 }
 .skycam-images-from .skycam-image1{
     position: absolute;
@@ -335,6 +337,21 @@ html[lang=kk] .service-name {
     margin: 0 auto;
     right: 0px;
 }
+@media screen and (max-width: 600px){
+    .skycam-images-from .skycam-image2 {
+        visibility: hidden;
+    }
+    .skycam-images-from .skycam-image1 {
+        right: 0;
+    }
+    .skycam-images-from {
+        justify-content: center;
+        align-items: center;
+    }
+    #nowcasting {
+        height: 820px;
+    }
+}
 .text-skyCam1{
     position: absolute;
     line-height: 0.3;
@@ -353,6 +370,11 @@ html[lang=kk] .service-name {
     display: flex;
     justify-content: space-between;
     margin-top: 20%;
+}
+@media screen and (max-width: 870px){
+    .dta-asimilation-description-container {
+        flex-wrap: wrap;
+    }
 }
 .dta-asimilation-description-container h1 {
     padding: 2rem;
@@ -539,7 +561,7 @@ html[lang=kk] .service-name {
     height: 430px;
 }
 .services-container .sky-cam-service {
-    background-image: url("/img/skycam-ren-5.png");
+    background-image: url("../img/skycam-ren-5.png");
     height: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -548,7 +570,7 @@ html[lang=kk] .service-name {
     width: 50%;
 }
 .services-container .aplication-service {
-    background-image: url("/img/App\ UI\ new.png");
+    background-image: url("../img/App\ UI\ new.png");
     height: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -562,14 +584,14 @@ html[lang=kk] .service-name {
     }
     .contactform {
         position: absolute;
-        margin: auto;
-        top: 80%;
+        margin: 20px auto;
+        top: 50%;
     }
     .contactform h2 {
         top: -15%;
     }
     .screen__append {
-        margin-top: 0;
+        margin-top: -15%;
     }
     #preorder{
         height: 900px;
@@ -578,6 +600,9 @@ html[lang=kk] .service-name {
 @media screen and (max-width: 440px){
     .contactform{
         width: 38%;
+    }
+    .screen__append {
+        margin-top: -30%;
     }
 }
 
@@ -826,7 +851,7 @@ html[lang=kk] .service-name {
  margin:0 0 40px
 }
 .screen__append {
- margin: 15% 0 20px;
+ /* margin: 15% 0 20px; */
  height: 80%;
  display: flex;
  flex-wrap: wrap;
@@ -1834,7 +1859,7 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
 }
 .skycam-image-container {
     margin: 10px;
-    background-image: url("/img/skycam-ren-5.png");
+    background-image: url("../img/skycam-ren-5.png");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1856,4 +1881,45 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
     #skycam-screen {
         height: 900px;
     }
+}
+
+.team-container {
+    display: grid;
+    grid-template: repeat(3, 180px) / repeat(2,1fr);
+    height: 100%;
+}
+.team-container div:nth-child(1){
+    background-image: url("/img/mx.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.team-container div:nth-child(2){
+    background-image: url("/img/lel.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.team-container div:nth-child(3){
+    background-image: url("/img/Omr.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.team-container div:nth-child(4){
+    background-image: url("/img/Ger.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.team-container div:nth-child(5){
+    background-image: url("/img/persa.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
 }

@@ -160,7 +160,7 @@
                 <div class="skycam-image-container"></div>
             </div>
         </div> 
-        <div class="screen">
+        <div class="screen" id="nowcasting">
             <div class="screen__back">
                 <div class="s-bg-prediction">
                     <!-- <div class="s-bg-prediction__formula">                        
@@ -263,14 +263,37 @@
                                         <span>Write your message here..</span>
                                     </div>
                                     <div class="inputBox w100">
-                                        <input type="submit" value="send">
-                                        
+                                        <input type="submit" value="send" id="sendOrder">                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+        </div>
+        <div class="screen">
+            <div class="screen__back">
+                <div class="s-bg-accuracy">
+                    <div class="s-bg-accuracy__bg s-bg-top-shadow">
+                        <img class="image s-bg-accuracy__image" src="https://images.unsplash.com/photo-1508916448481-b6b53df0c5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="">
+                    </div>
                 </div>
+                <div class="screen__wrap">
+                    <div class="screen__title">
+                        <h1 class="title title_lvl_1 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook">The Team</h1>
+                    </div>
+                    <div class="screen__text">
+                        <div class="static-text static-text_align_center i-font i-font_face_textbook i-font i-font_face_textbook">We are working developing technology advanced for weather</div>
+                    </div>
+                    <div class="team-container">
+                        <div class="image-member-team"></div>
+                        <div class="image-member-team"></div>
+                        <div class="image-member-team"></div>
+                        <div class="image-member-team"></div>
+                        <div class="image-member-team"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="foot i-font i-font_face_textbook">
         <div class="section">
@@ -283,5 +306,6 @@
             <div class="foot__link"><a class="link link_theme_normal" href="#">Contacts</a></div>            
         </div>
     </div>
+    <script src="/js/app.js"></script>
 </body>
 </html>
