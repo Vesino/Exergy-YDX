@@ -286,7 +286,7 @@ html[lang=kk] .service-name {
  margin:60px 0 0 -155px;
  /* background:url("/img/analyzedImageClouds.jpeg") center no-repeat */
 }
-.s-bg-prediction__formula .cloud-image {
+.s-bg-prediction__formula .cloud-image1 {
     position: absolute;
     width: 38%;
     height: 200%;
@@ -296,6 +296,70 @@ html[lang=kk] .service-name {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
+}
+.s-bg-prediction__formula .cloud-image2 {
+    position: absolute;
+    width: 38%;
+    height: 200%;
+    border-radius: 20%;
+    background-image:linear-gradient(rgba(106, 153, 172, 0.2), rgba(106, 153, 172, 0.2)), url("../img/analyzedImageClouds.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.skycam-images-from {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skycam-images-from .skycam-image1{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    background-image: url("../img/analyzedImageClouds.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    left: 0px;
+}
+.skycam-images-from .skycam-image2{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    background-image: url("../img/analyzedImageClouds.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    right: 0px;
+}
+.text-skyCam1{
+    position: absolute;
+    line-height: 0.3;
+    top: 90%;
+    margin: 30px 20px 0 20px;
+    left: 60px;
+}
+.text-skyCam2{
+    position: absolute;
+    line-height: 0.3;
+    top: 90%;
+    margin: 30px 20px 0 20px;
+    right: 60px;
+}
+.dta-asimilation-description-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+}
+.dta-asimilation-description-container h1 {
+    padding: 2rem;
+    margin: 0 40px;
+}
+.dta-asimilation-description-container h1 b {
+    font-weight: bold;
 }
 .s-bg-setting,
 .s-bg-setting:after,
@@ -442,7 +506,84 @@ html[lang=kk] .service-name {
 .static-text {
  font-size:1.4em;
  line-height:1.5em;
- color: #58606D;
+ color: white;
+}
+.static-text2 {
+    font-size:1.4em;
+    line-height:1.5em;
+    color: black;
+}
+.contactform {
+    position: relative;
+    width: 15%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    height: 50%;
+}
+.contactform h2 {
+    position: absolute;
+    top: -30%;
+}
+.formBox {
+    width: 100%;
+    height: 100%;
+}
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 679px;
+    margin-right: auto;
+    height: 430px;
+}
+.services-container .sky-cam-service {
+    background-image: url("/img/skycam-ren-5.png");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 50%;
+}
+.services-container .aplication-service {
+    background-image: url("/img/App\ UI\ new.png");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 50%;
+}
+@media screen and (max-width: 874px){
+    .services-container {
+        margin-right: 0;
+    }
+    .contactform {
+        position: absolute;
+        margin: auto;
+        top: 80%;
+    }
+    .contactform h2 {
+        top: -15%;
+    }
+    .screen__append {
+        margin-top: 0;
+    }
+    #preorder{
+        height: 900px;
+    }
+}
+@media screen and (max-width: 440px){
+    .contactform{
+        width: 38%;
+    }
+}
+
+#hero-texto{
+ text-transform: uppercase;
+ font-weight: bold;
 }
 .static-text_size_small {
  font-size:1em;
@@ -685,7 +826,12 @@ html[lang=kk] .service-name {
  margin:0 0 40px
 }
 .screen__append {
- margin:0 0 20px
+ margin: 15% 0 20px;
+ height: 80%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-content: center;
 }
 .screen__back {
  position:absolute;
@@ -1686,20 +1832,28 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
  position:relative;
  margin:0 auto 10px
 }
-
+.skycam-image-container {
+    margin: 10px;
+    background-image: url("/img/skycam-ren-5.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .earths-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;   
 }
-
 .earths-container img {
     margin-top: 3rem;
 }
 @media screen and (max-width: 649px){
     #earths {
+        height: 900px;
+    }
+    #skycam-screen {
         height: 900px;
     }
 }
