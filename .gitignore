@@ -1,2 +1,19 @@
 .DS_Store
 Desktop.ini
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+*.pyc
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+env
+.vscode
+#On macOS
+.DS_Store
+.DS_Store?
+._*
+*.jpg
+*.png
