@@ -349,7 +349,7 @@ html[lang=kk] .service-name {
         align-items: center;
     }
     #nowcasting {
-        height: 820px;
+        height: 880px;
     }
 }
 .text-skyCam1{
@@ -585,13 +585,15 @@ html[lang=kk] .service-name {
     .contactform {
         position: absolute;
         margin: 20px auto;
-        top: 50%;
+        top: 63%;
+        left: 35%
     }
     .contactform h2 {
         top: -15%;
     }
     .screen__append {
-        margin-top: -15%;
+        /* margin-top: -15%; */
+        margin: 15% 0 20px; 
     }
     #preorder{
         height: 900px;
@@ -851,7 +853,7 @@ html[lang=kk] .service-name {
  margin:0 0 40px
 }
 .screen__append {
- /* margin: 15% 0 20px; */
+ margin: 15% 0 20px;
  height: 80%;
  display: flex;
  flex-wrap: wrap;
@@ -1887,6 +1889,7 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
     display: grid;
     grid-template: repeat(3, 180px) / repeat(2,1fr);
     height: 100%;
+    grid-area: "max eliel", "Omar Greg", "persa";
 }
 .team-container div:nth-child(1){
     background-image: url("../img/mx.png");
@@ -1894,6 +1897,7 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
+    grid-template-areas: "max eliel";
 }
 .team-container div:nth-child(2){
     background-image: url("../img/lel.png");
@@ -1922,4 +1926,12 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
+}
+.team-container div:nth-child(6){
+    background-image: url("../img/EIT\ Climate-KIC\ +\ EU\ flag.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 30px;
 }
