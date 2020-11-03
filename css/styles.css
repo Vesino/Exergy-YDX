@@ -1891,7 +1891,9 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
     display: grid;
     grid-template: repeat(3, 180px) / repeat(2,1fr);
     height: 100%;
-    grid-area: "max eliel", "Omar Greg", "persa";
+}
+.team-container div {
+    border-radius: 50%;
 }
 .team-container div:nth-child(1){
     background-image: url("https://i.postimg.cc/NMG4g4Yj/mx.png");
@@ -1899,7 +1901,7 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
-    grid-template-areas: "max eliel";
+    
 }
 .team-container div:nth-child(2){
     background-image: url("https://i.postimg.cc/SKF1pCJn/lel.png");
