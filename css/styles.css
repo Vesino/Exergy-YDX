@@ -133,7 +133,7 @@ html[lang=kk] .service-name {
  width:122px;
  height:132px;
  margin-left:0;
- background:url("../img/weatherRadar.png") center no-repeat;
+ background:url("https://i.postimg.cc/BvBp9zrz/weather-Radar.png") center no-repeat;
  background-position: center;
  background-repeat: no-repeat;
  background-size: contain;
@@ -173,7 +173,7 @@ html[lang=kk] .service-name {
     width:122px;
     height:132px;
     margin-left:0;
-    background:url("../img/satellite.png") center no-repeat;
+    background:url("https://i.postimg.cc/m2Pmz89c/satellite.png") center no-repeat;
     /* -webkit-transition:-webkit-transform 2.2s ease .6s;
     transition:-webkit-transform 2.2s ease .6s;
     transition:transform 2.2s ease .6s;
@@ -191,7 +191,7 @@ html[lang=kk] .service-name {
     width:122px;
     height:132px;
     margin-left: 0%;
-    background:url("../img/avion.png") center no-repeat;
+    background:url("https://i.postimg.cc/25hJqTPd/avion.png") center no-repeat;
     /* -webkit-transition:-webkit-transform 2.2s ease .6s;
     transition:-webkit-transform 2.2s ease .6s;
     transition:transform 2.2s ease .6s;
@@ -209,7 +209,7 @@ html[lang=kk] .service-name {
  width:122px;
  height:132px;
  margin-left:0;
- background:url("../img/weatherStation.png") center no-repeat;
+ background:url("https://i.postimg.cc/Y9XxjWqf/weather-Station.png") center no-repeat;
  /* -webkit-transition:-webkit-transform 2.2s ease .6s;
  transition:-webkit-transform 2.2s ease .6s;
  transition:transform 2.2s ease .6s;
@@ -319,7 +319,7 @@ html[lang=kk] .service-name {
     position: absolute;
     width: 350px;
     height: 250px;
-    background-image: url("../img/analyzedImageClouds.jpeg");
+    background-image: url("https://i.postimg.cc/mD4n7Csv/analyzed-Image-Clouds.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -330,7 +330,7 @@ html[lang=kk] .service-name {
     position: absolute;
     width: 350px;
     height: 250px;
-    background-image: url("../img/analyzedImageClouds.jpeg");
+    background-image: url("https://i.postimg.cc/mD4n7Csv/analyzed-Image-Clouds.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -561,7 +561,7 @@ html[lang=kk] .service-name {
     height: 430px;
 }
 .services-container .sky-cam-service {
-    background-image: url("../img/skycam-ren-5.png");
+    background-image: url("https://i.postimg.cc/vTctnZ4R/skycam-ren-5.png");
     height: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -570,7 +570,7 @@ html[lang=kk] .service-name {
     width: 50%;
 }
 .services-container .aplication-service {
-    background-image: url("../img/App\ UI\ new.png");
+    background-image: url("https://i.postimg.cc/cCbTk8p4/App-UI-new.png");
     height: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -730,16 +730,16 @@ html[lang=kk] .service-name {
  background-repeat:no-repeat
 }
 .s-icon_type_time {
- background-image:url("../img/weather-icon.png")
+ background-image:url("https://i.postimg.cc/RV2XcK1g/weather-icon.png")
 }
 .s-icon_type_point {
  background-image:url(data:image/svg+xml;base64,)
 }
 .s-icon_type_satellite {
- background-image:url("../img/solarpowered2.png")
+ background-image:url("https://i.postimg.cc/t4PDDJ2p/solarpowered2.png")
 }
 .s-icon_type_reciver {
- background-image:url("../img/analisis.png")
+ background-image:url("https://i.postimg.cc/fR6pT1gT/analisis.png")
 }
 .s-icon_type_device {
  background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIyOHB4IiBoZWlnaHQ9IjQwcHgiIHZpZXdCb3g9IjAgMCAyOCA0MCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpza2V0Y2g9Imh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaC9ucyI+DQogICAgPGcgaWQ9ImFsbCIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc2tldGNoOnR5cGU9Ik1TUGFnZSI+DQogICAgICAgIDxnIGlkPSJEZXNrdG9wNCIgc2tldGNoOnR5cGU9Ik1TQXJ0Ym9hcmRHcm91cCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTY0Ni4wMDAwMDAsIC0xNTQ4LjAwMDAwMCkiIGZpbGw9IiNGRkZGRkYiPg0KICAgICAgICAgICAgPGcgaWQ9IlAyIiBza2V0Y2g6dHlwZT0iTVNMYXllckdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNDguMDAwMDAwLCA2NDkuMDAwMDAwKSI+DQogICAgICAgICAgICAgICAgPGcgaWQ9IjIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCA2NTAuMDAwMDAwKSIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+DQogICAgICAgICAgICAgICAgICAgIDxnIGlkPSJpbnRlcm5ldC1jb3B5LSstaW50ZXJuZXQtY29weS0rLWludGVybmV0LWNvcHkiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDk2LjAwMDAwMCwgMjQ5LjAwMDAwMCkiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxnIGlkPSJpbnRlcm5ldC1jb3B5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMS41MDAwMDAsIDAuMDAwMDAwKSI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik00LjU3NDQ2ODA5LDYgTDQuNTc0NDY4MDksNiBDNS42NzkwMzc1OCw2IDYuNTc0NDY4MDksNS4xMDQ1Njk1IDYuNTc0NDY4MDksNCBDNi41NzQ0NjgwOSwyLjg5NTQzMDUgNS42NzkwMzc1OCwyIDQuNTc0NDY4MDksMiBDMy40Njk4OTg1OSwyIDIuNTc0NDY4MDksMi44OTU0MzA1IDIuNTc0NDY4MDksNCBDMi41NzQ0NjgwOSw1LjEwNDU2OTUgMy40Njk4OTg1OSw2IDQuNTc0NDY4MDksNiBMNC41NzQ0NjgwOSw2IFogTTQuNTc0NDY4MDksOCBMNC41NzQ0NjgwOSw4IEMyLjM2NTMyOTA5LDggMC41NzQ0NjgwODUsNi4yMDkxMzkgMC41NzQ0NjgwODUsNCBDMC41NzQ0NjgwODUsMS43OTA4NjEgMi4zNjUzMjkwOSwwIDQuNTc0NDY4MDksMCBDNi43ODM2MDcwOCwwIDguNTc0NDY4MDksMS43OTA4NjEgOC41NzQ0NjgwOSw0IEM4LjU3NDQ2ODA5LDYuMjA5MTM5IDYuNzgzNjA3MDgsOCA0LjU3NDQ2ODA5LDggTDQuNTc0NDY4MDksOCBaIiBpZD0iU2hhcGUiPjwvcGF0aD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTMuNSw4IEwzLjUsMzkgQzMuNSwzOS41NTIyODQ3IDMuOTQ3NzE1MjUsNDAgNC41LDQwIEM1LjA1MjI4NDc1LDQwIDUuNSwzOS41NTIyODQ3IDUuNSwzOSBMNS41LDggQzUuNSw3LjQ0NzcxNTI1IDUuMDUyMjg0NzUsNyA0LjUsNyBDMy45NDc3MTUyNSw3IDMuNSw3LjQ0NzcxNTI1IDMuNSw4IEwzLjUsOCBaIiBpZD0iU2hhcGUiPjwvcGF0aD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2c+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9ImludGVybmV0LWNvcHkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDkuOTMzMDEzLCAxOC4yNTAwMDApIHJvdGF0ZSgtMTIwLjAwMDAwMCkgdHJhbnNsYXRlKC05LjkzMzAxMywgLTE4LjI1MDAwMCkgdHJhbnNsYXRlKDUuNDMzMDEzLCAxMC4yNTAwMDApIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTQuNTc0NDY4MDksNiBMNC41NzQ0NjgwOSw2IEM1LjY3OTAzNzU4LDYgNi41NzQ0NjgwOSw1LjEwNDU2OTUgNi41NzQ0NjgwOSw0IEM2LjU3NDQ2ODA5LDIuODk1NDMwNSA1LjY3OTAzNzU4LDIgNC41NzQ0NjgwOSwyIEMzLjQ2OTg5ODU5LDIgMi41NzQ0NjgwOSwyLjg5NTQzMDUgMi41NzQ0NjgwOSw0IEMyLjU3NDQ2ODA5LDUuMTA0NTY5NSAzLjQ2OTg5ODU5LDYgNC41NzQ0NjgwOSw2IEw0LjU3NDQ2ODA5LDYgWiBNNC41NzQ0NjgwOSw4IEw0LjU3NDQ2ODA5LDggQzIuMzY1MzI5MDksOCAwLjU3NDQ2ODA4NSw2LjIwOTEzOSAwLjU3NDQ2ODA4NSw0IEMwLjU3NDQ2ODA4NSwxLjc5MDg2MSAyLjM2NTMyOTA5LC0yLjg0MjE3MDk0ZS0xNCA0LjU3NDQ2ODA5LC0yLjg0MjE3MDk0ZS0xNCBDNi43ODM2MDcwOCwtMi44NDIxNzA5NGUtMTQgOC41NzQ0NjgwOSwxLjc5MDg2MSA4LjU3NDQ2ODA5LDQgQzguNTc0NDY4MDksNi4yMDkxMzkgNi43ODM2MDcwOCw4IDQuNTc0NDY4MDksOCBMNC41NzQ0NjgwOSw4IFoiIGlkPSJTaGFwZSI+PC9wYXRoPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMy41LDggTDMuNSwxNSBDMy41LDE1LjU1MjI4NDcgMy45NDc3MTUyNSwxNiA0LjUsMTYgQzUuMDUyMjg0NzUsMTYgNS41LDE1LjU1MjI4NDcgNS41LDE1IEw1LjUsOCBDNS41LDcuNDQ3NzE1MjUgNS4wNTIyODQ3NSw3IDQuNSw3IEMzLjk0NzcxNTI1LDcgMy41LDcuNDQ3NzE1MjUgMy41LDggTDMuNSw4IFoiIGlkPSJTaGFwZSI+PC9wYXRoPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iaW50ZXJuZXQtY29weSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjIuMDY2OTg3LCAxOC4yNTAwMDApIHJvdGF0ZSgtMjQwLjAwMDAwMCkgdHJhbnNsYXRlKC0yMi4wNjY5ODcsIC0xOC4yNTAwMDApIHRyYW5zbGF0ZSgxNy41NjY5ODcsIDEwLjI1MDAwMCkiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNNC41NzQ0NjgwOSw2IEw0LjU3NDQ2ODA5LDYgQzUuNjc5MDM3NTgsNiA2LjU3NDQ2ODA5LDUuMTA0NTY5NSA2LjU3NDQ2ODA5LDQgQzYuNTc0NDY4MDksMi44OTU0MzA1IDUuNjc5MDM3NTgsMiA0LjU3NDQ2ODA5LDIgQzMuNDY5ODk4NTksMiAyLjU3NDQ2ODA5LDIuODk1NDMwNSAyLjU3NDQ2ODA5LDQgQzIuNTc0NDY4MDksNS4xMDQ1Njk1IDMuNDY5ODk4NTksNiA0LjU3NDQ2ODA5LDYgTDQuNTc0NDY4MDksNiBaIE00LjU3NDQ2ODA5LDggTDQuNTc0NDY4MDksOCBDMi4zNjUzMjkwOSw4IDAuNTc0NDY4MDg1LDYuMjA5MTM5IDAuNTc0NDY4MDg1LDQgQzAuNTc0NDY4MDg1LDEuNzkwODYxIDIuMzY1MzI5MDksNy44MTU5NzAwOWUtMTQgNC41NzQ0NjgwOSw3LjgxNTk3MDA5ZS0xNCBDNi43ODM2MDcwOCw3LjgxNTk3MDA5ZS0xNCA4LjU3NDQ2ODA5LDEuNzkwODYxIDguNTc0NDY4MDksNCBDOC41NzQ0NjgwOSw2LjIwOTEzOSA2Ljc4MzYwNzA4LDggNC41NzQ0NjgwOSw4IEw0LjU3NDQ2ODA5LDggWiIgaWQ9IlNoYXBlIj48L3BhdGg+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0zLjUsOCBMMy41LDE1IEMzLjUsMTUuNTUyMjg0NyAzLjk0NzcxNTI1LDE2IDQuNSwxNiBDNS4wNTIyODQ3NSwxNiA1LjUsMTUuNTUyMjg0NyA1LjUsMTUgTDUuNSw4IEM1LjUsNy40NDc3MTUyNSA1LjA1MjI4NDc1LDcgNC41LDcgQzMuOTQ3NzE1MjUsNyAzLjUsNy40NDc3MTUyNSAzLjUsOCBMMy41LDggWiIgaWQ9IlNoYXBlIj48L3BhdGg+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9nPg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9nPg0KICAgICAgICAgICAgICAgICAgICA8L2c+DQogICAgICAgICAgICAgICAgPC9nPg0KICAgICAgICAgICAgPC9nPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+)
@@ -1153,7 +1153,7 @@ html[lang=kk] .service-name {
  width: 300px;
  height: 270px;
  margin: 0 auto 0;
- background: url("../img/EXERGYLOGO.png");
+ background: url("https://i.postimg.cc/qRG5wqBz/EXERGYLOGO.png");
 /* Position and center the image to scale nicely on all screens */
 background-position: center;
 background-repeat: no-repeat;
@@ -1861,7 +1861,7 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
 }
 .skycam-image-container {
     margin: 10px;
-    background-image: url("../img/skycam-ren-5.png");
+    background-image: url("https://i.postimg.cc/vTctnZ4R/skycam-ren-5.png");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1875,6 +1875,8 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
 }
 .earths-container img {
     margin-top: 3rem;
+    width: 295px;
+    height: 259px;
 }
 @media screen and (max-width: 649px){
     #earths {
@@ -1892,7 +1894,7 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
     grid-area: "max eliel", "Omar Greg", "persa";
 }
 .team-container div:nth-child(1){
-    background-image: url("../img/mx.png");
+    background-image: url("https://i.postimg.cc/NMG4g4Yj/mx.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1900,35 +1902,35 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
     grid-template-areas: "max eliel";
 }
 .team-container div:nth-child(2){
-    background-image: url("../img/lel.png");
+    background-image: url("https://i.postimg.cc/SKF1pCJn/lel.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
 }
 .team-container div:nth-child(3){
-    background-image: url("../img/Omr.png");
+    background-image: url("https://i.postimg.cc/VN8ghwVM/Omr.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
 }
 .team-container div:nth-child(4){
-    background-image: url("../img/Ger.png");
+    background-image: url("https://i.postimg.cc/1tyW8S0P/Ger.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
 }
 .team-container div:nth-child(5){
-    background-image: url("../img/persa.png");
+    background-image: url("https://i.postimg.cc/WpW91QdL/persa.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
 }
 .team-container div:nth-child(6){
-    background-image: url("../img/EIT\ Climate-KIC\ +\ EU\ flag.png");
+    background-image: url("https://i.postimg.cc/fbc2Wy9B/EIT-Climate-KIC-EU-flag.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
