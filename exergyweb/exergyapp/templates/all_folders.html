@@ -1,0 +1,10 @@
+<ul>
+  {% for member in folder_contents %}
+      <form action="{% url 'download_folder' %}" method="post">
+          {% csrf_token %}
+          <button type="submit" name='submit' value='{{member.path_lower}}'>{{member.name}}</button>
+      </form>
+  {% empty %}
+    <li>No files</li>
+  {% endfor %}
+</ul>

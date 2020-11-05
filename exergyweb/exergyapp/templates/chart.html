@@ -1,0 +1,23 @@
+{% extends "base_chart.html" %}
+{% block head %}
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+{% endblock %}
+
+{% block content %}
+
+<div class="container text-center">
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Power Forecasts</a>
+    </nav>
+
+
+    <div class="card" style="width: 100%;margin-top: 15px">
+
+      <div class="card-body">
+          <h2 class="card-title">Your 5 days AC power output forecast (W)</h2>
+        {{linechart|safe}}
+      </div>
+      <input type="button" value="Download" onclick="window.open('download_my_forecasts')">
+    </div>
+</div>
+{% endblock %}

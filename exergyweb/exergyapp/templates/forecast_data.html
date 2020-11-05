@@ -1,0 +1,36 @@
+{% extends 'base_form.html' %}
+
+{% load crispy_forms_tags %}
+
+{% load static %}
+
+{% block content %}
+<h1 class="mt-0">Forecast your power output</h1>
+  <form method="post">
+    {% csrf_token %}
+     <div class="form-row">
+      <div class="form-group col-md-6 mb-0">
+        {{ form.latitude|as_crispy_field }}
+      </div>
+      <div class="form-group col-md-6 mb-0">
+        {{ form.longitude|as_crispy_field }}
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6 mb-0">
+        {{ form.modules_per_string|as_crispy_field }}
+      </div>
+      <div class="form-group col-md-6 mb-0">
+        {{ form.strings_per_inverter|as_crispy_field }}
+      </div>
+    </div>
+    {{ form.module|as_crispy_field }}
+    {{ form.inverter|as_crispy_field }}
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+<div class="">
+  <img src="{% static 'img/pvs.jpeg' %}" alt="">
+</div>
+
+{% endblock %}

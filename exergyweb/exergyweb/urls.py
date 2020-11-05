@@ -24,6 +24,12 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', v.index),
     path('', include('exergyapp.urls')),
+    path('forecast/', v.pvlib_location, name="Forecasting"),
+    path('sky_cam/', v.sky_cam, name='Sky-cam-images'),
+    path('sky_cam/download_data', v.all_folders),
+    path('chart', v.pvlib_location, name='chart'),
+    path('download_folder/',v.download_folder,name="download_folder"),
+    url('download_my_forecasts', v.download_forecasts),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

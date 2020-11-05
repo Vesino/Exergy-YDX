@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="EXERGY" content="">
+
+  <title>Exergy Tech - Climatic Informatics</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="static/img/EXERGY ONLY LOGO.png">
+  {% csrf_token %}
+  {% load static %}
+  <!-- Font Awesome Icons -->
+  <link href="{% static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
+
+  <!-- Google Fonts -->
+  <link href="{% static 'https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700' %}" rel="stylesheet">
+  <link href="{% static 'https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' %}" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400&display=swap" rel="stylesheet">
+
+  <!-- Plugin CSS -->
+  <link href="{% static 'vendor/magnific-popup/magnific-popup.css' %}" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="{% static 'css/creative.min.css' %}" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <img class="img-fluid" src="../static/img/EXERGY LOGO BLANCO powerForecasting.png" alt="" height="150" width="150">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- A brief introduction to sky cams -->
+  <section class="page-section bg-dark text-white" id="sectionSkyCam">
+    <div class="container" id="skycamIntroduction">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center marginal">
+          <h2 class="text-white mt-0">"We use sky cam for contribute to obtain data from the sky."</h2>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- here will be the images from dropbox 
+    make a loop for each images and its respective template
+    example for image in images:
+                #create the template
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                    <img class="img-fluid" src="{"here will be each image.jpg"}" alt="" height="250" width="250">
+                    <h3 class="h4 mb-2">{"here will be each title of the image"}</h3>
+                    <p class="text-muted mb-0">{"Here will be some text if you want"}</p>
+                    </div>
+                </div>
+    -->
+    <section class="page-section" id="imagesFromDropbox">
+        <div class="container">
+          <h2 class="text-center mt-0">Images by our whole-sky imagers</h2>
+          <hr class="divider my-4">
+             <div class="row">
+                 <!-- here will start the loop -->
+               <div class="col-lg-3 col-md-6 text-center">
+               <div class="mt-5">
+                 <img class="img-fluid rounded float-left" src={{img_link_raspberrypi|safe}} alt="" height="500" width="500">
+                 <h3 class="h4 mb-2">{{img_datetime_raspberrypi|safe}}</h3>
+                 <p class="text-muted mb-0">7624, Pécs, Szigeti út 27</p>
+               </div>
+               </div>
+               <!-- Here must finish the loop -->
+               <div class="col-lg-3 col-md-6 text-center">
+               <div class="mt-5">
+                 <img class="img-fluid rounded float-left" src={{img_link_raspberrypi4_bld4|safe}} alt="" height="500" width="500">
+                 <h3 class="h4 mb-2">{{img_datetime_raspberrypi4_bld4|safe}}</h3>
+                 <p class="text-muted mb-0">7624, Pécs, Ifjúság útja 6</p>
+               </div>
+               </div>
+             </div>
+        </div>
+    </section>
+    
+<input type="button" value="Download whole-sky images" onclick="window.open('download_data')">
+
+<!-- Supported by KIC Section -->
+  <section class="page-section bg-dark text-white" id="TeamFounders">
+    <div class="container">
+      <h2 class="text-center mt-0 Supported">Supported by: </h2>
+      <hr class="divider my-4">
+         <div class="row">
+           <div class="col-lg-3 col-md-6 text-center">
+           <div class="mt-5">
+             <img class="img-fluid" src="../static/img/EIT Climate-KIC + EU flag.png" alt="" height="100%" width="100%">             
+           </div>
+           </div>           
+         </div>
+    </div>
+</section>
+  
+  <!-- Footer -->
+  <footer class="bg-light py-5">
+    <div class="container">
+      <div class="small text-center text-muted fadeIn">EXERGY Climatic Informatics, Pécs, Hungary</div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'vendor/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="{% static 'js/creative.min.js' %}"></script>
+</body>
+
+</html>
