@@ -152,8 +152,11 @@ Older
         <div class="screen">
             <div class="screen__back">
                 <div class="s-bg-satellite" style="background-image: url(https://i.postimg.cc/LXxjZNTp/roof-Exergy-skycam.jpg)">
-                <input type="button" value="Download whole-sky images" onclick="window.open('download_data')">
-             	
+                <!-- <input type="button" value="Download whole-sky images" onclick="window.open('download_data')"> -->
+                <div class="screen__title">
+                    <h1 class="title title_lvl_1 title_align_center title_black">Discover our images</h1>
+                    <div class="static-text static-text_align_center text-hero title_black" id="subtitle">You can download a set of images taken by our sky cams</div>
+                </div>
              	<div class="flex-container">
 		    <div class="flex-child rpi">
 			<img src={{img_link_raspberrypi|safe}} height="200" width="250"/>
@@ -165,7 +168,8 @@ Older
 			<h3>{{img_datetime_raspberrypi4_bld4|safe}}</h3>
 		        <p>7624, Pécs, Ifjúság útja 6</p>
 		    </div>
-		</div>
+        </div>
+        <input type="button" value="Download whole-sky images" onclick="window.open('download_data')">
                 </div>
             </div>   
         </div>
@@ -208,46 +212,42 @@ Older
                 <div class="skycam-image-container"></div>
             </div>
         </div>  -->
-        <div class="screen container-nowcasting-dataAsimilation">
-            <div class="screen__title_absoluto">
-                <h1 class="title title_lvl_1 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Industrial Weather System</h1>
-            </div>
-            <div class="screen" id="nowcasting">
-                <div class="screen__back">
-                    <div class="s-bg-prediction">                    
+        <div class="screen">
+            <div class="screen__back">
+                <div class="s-bg-accuracy">
+                    <div class="s-bg-accuracy__bg s-bg-top-shadow">
+                        <!-- <img class="image s-bg-accuracy__image" src="https://images.unsplash.com/photo-1508916448481-b6b53df0c5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt=""> -->
                     </div>
                 </div>
                 <div class="screen__wrap">
-                    <div class="screen__title_divido"><h1 class="title title_lvl_3 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Nowcasting</h1></div>
-                    <div class="static-text static-text_align_center i-font i-font_face_textbook i-font i-font_face_textbook text-hero">Very short-term solar production forecast based on taken sky pictures for less volatile intraday/balancing electricity prices. </div>
-
-                    <!-- <div class="skycam-images-from">
-                        <div class="skycam-image1">
-                            <div class="text-skyCam1">
-                                <h1>20-12-2020</h1>
-                                <h3>23:57</h3>
-                                <p>photo from sky cam located at my place</p></div>                        
-                        </div>
-                        <div class="skycam-image2">
-                            <div class="text-skyCam2">
-                                <h1>20-12-2020</h1>
-                                <h3>23:57</h3>
-                                <p>photo from sky cam located at my place</p></div>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="screen" id="data-asimilation">
-                <div class="screen__back">
-                    <div class="s-bg-prediction">
-
+                    <div class="screen__title">
+                        <h1 class="title title_lvl_1 title_align_center ">Industrial weather Station</h1>
                     </div>
+                    <div class="screen__text">
+                        <div class="static-text static-text_align_center "></div>
+                    </div>
+                    <div class="grid-container">
+                        <div class="bloqueo-textos">
+                            <div class="screen__title just-cont">
+                                <h1 class="title title_lvl_1 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Nowcasting</h1>
+                            </div>
+                            <div class="screen__text">
+                                <div class="static-text static-text_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Very short-term solar production forecast based on taken sky pictures for less volatile intraday/balancing electricity prices.</div>
+                            </div>
+                        </div>
+                        <div class="bloqueo-textos">
+                            <div class="screen__title just-cont">
+                                <h1 class="title title_lvl_1 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Data Asimilation</h1>
+                            </div>
+                            <div class="screen__text">
+                                <div class="static-text static-text_align_center i-font i-font_face_textbook i-font i-font_face_textbook">High spatiotemporal resolution of cloud parameters for sub kilometer numerical weather prediction models. </div>
+                            </div>
+                        </div>
+                                            
+                                                           
+                    </div>
+                  
                 </div>
-                <div class="screen__wrap">
-                    <div class="screen__title_divido"><h1 class="title title_lvl_3 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Data Asimilation</h1></div>
-                    <div class="static-text static-text_align_center i-font i-font_face_textbook i-font i-font_face_textbook text-hero">High spatiotemporal resolution of cloud parameters for sub kilometer numerical weather prediction models. </div>
-                </div>
-
             </div>
         </div>
 
@@ -287,7 +287,7 @@ Older
             <div class="screen__back">
                 <div class="s-bg-accuracy">
                     <div class="s-bg-accuracy__bg s-bg-top-shadow">
-                        <img class="image s-bg-accuracy__image" src="https://images.unsplash.com/photo-1508916448481-b6b53df0c5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="">
+                        <!-- <img class="image s-bg-accuracy__image" src="https://images.unsplash.com/photo-1508916448481-b6b53df0c5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt=""> -->
                     </div>
                 </div>
                 <div class="screen__wrap">
@@ -305,7 +305,9 @@ Older
                         <div class="image-member-team"></div>                        
                     </div>
                     <div class="KIC-climate">                        
-                            <h1>Supported by:</h1>                                               
+                            <h1>Supported by:</h1>
+                            <div class="logoKIC">                            
+                            </div>                                               
                     </div>
                 </div>
             </div>
