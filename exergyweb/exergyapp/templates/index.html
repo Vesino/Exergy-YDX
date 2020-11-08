@@ -10,6 +10,7 @@
     <meta name="author" content="EXERGY">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="https://i.postimg.cc/J06dwFk8/exergyblncomini.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="{% static 'styles.css' %}">
     <title>EXERGY.co</title>
 </head>
@@ -55,7 +56,7 @@
         </div>
         <div class="screen" id="earths">
             <div class="screen__back">
-            <div class="s-bg-satellite" style="background-image: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)">
+            <div class="s-bg-satellite" style="background-image: url(https://i.postimg.cc/HxcHr1BQ/background-universe.jpg)">
             </div>
         </div>
             <div class="screen__wrap">
@@ -63,14 +64,14 @@
                     <h1 class="title title_lvl_2 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Higher resolution models require higher resolution observations</h1>
                 </div>
                 <div class="earths-container">
-                    <img src="https://i.postimg.cc/0QZVm4ZS/radar-Earth.png" alt=""> 
-                    <img src="https://i.postimg.cc/1RJdN8Yd/earth-Grid.png" alt=""> 
+                    <img src="https://i.postimg.cc/dt2Wf9H2/earthGif.gif" alt=""> 
+                    <!-- <img src="https://i.postimg.cc/1RJdN8Yd/earth-Grid.png" alt="">  -->
                 </div>               
             </div>
         </div>
         <div class="screen">
             <div class="screen__back">
-                <div class="s-bg-satellite" style="background-image: url(https://cdn.pixabay.com/photo/2016/05/19/02/42/skyline-1402050_960_720.jpg)">
+                <div class="s-bg-satellite" style="background-image: url(https://i.postimg.cc/7hSkNMvh/background-clean.jpg)">
                     <!-- <div class="s-bg-satellite__satellite-big"></div>
                     <div class="s-bg-satellite__satellite-small">
                     </div> -->
@@ -78,7 +79,7 @@
             </div>
             <div class="screen__wrap">
                 <div class="screen__title">
-                    <h1 class="title title_lvl_1 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Compact weather station</h1>
+                    <h1 class="title title_lvl_1 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Residential Weather System</h1>
                     <div class="static-text static-text_align_center i-font i-font_face_textbook i-font i-font_face_textbook text-hero">It is possible to monitoring data reagrding to a specific location</div>
                 </div>
                 <div class="screen__features">
@@ -115,7 +116,13 @@
                                     <div>
             </div>
         </div>
-        <div class="screen" id="skycam-screen">
+        <div class="screen">
+            <div class="screen__back">
+                <div class="s-bg-satellite" style="background-image: url(https://i.postimg.cc/LXxjZNTp/roof-Exergy-skycam.jpg)">
+                </div>
+            </div>   
+        </div>
+        <!-- <div class="screen" id="skycam-screen">
             <div class="screen__back">
                 <div class="s-bg-station" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://cdn.pixabay.com/photo/2020/08/10/00/21/trees-5476656_960_720.jpg)">
                 </div>
@@ -126,17 +133,7 @@
                 <div class="screen__features">
                     <div class="s-feature">
                         <div class="grid clearfix">
-                            <div class="grid__row clearfix">
-                                <!-- <div class="grid__cell grid__cell_pos_0 grid__cell_size_4">
-                                    <div class="grid__cell-inner">
-                                        <div class="s-feature__heading">
-                                            <div class="s-icon s-icon_type_station">
-
-                                            </div>
-                                        </div>
-                                        <div class="s-feature__text">A compact weather station with a sky camera</div>
-                                    </div>
-                                </div> -->
+                            <div class="grid__row clearfix">                            
                                 <div class="grid__cell  grid__cell_size_4">
                                     <div class="grid__cell-inner">
                                         <div class="s-feature__heading">
@@ -164,141 +161,74 @@
                 </div>
                 <div class="skycam-image-container"></div>
             </div>
-        </div> 
-        <div class="screen" id="nowcasting">
-            <div class="screen__back">
-                <div class="s-bg-prediction">
-                    <!-- <div class="s-bg-prediction__formula">                        
-                        <div class="cloud-image1"></div><div class="cloud-image2"></div>
+        </div>  -->
+        <div class="screen container-nowcasting-dataAsimilation">
+            <div class="screen__title_absoluto">
+                <h1 class="title title_lvl_1 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Industrial Weather System</h1>
+            </div>
+            <div class="screen" id="nowcasting">
+                <div class="screen__back">
+                    <div class="s-bg-prediction">                    
+                    </div>
+                </div>
+                <div class="screen__wrap">
+                    <div class="screen__title_divido"><h1 class="title title_lvl_3 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Nowcasting</h1></div>
+                    <div class="static-text static-text_align_center i-font i-font_face_textbook i-font i-font_face_textbook text-hero">Very short-term solar production forecast based on taken sky pictures for less volatile intraday/balancing electricity prices. </div>
+                 
+                    <!-- <div class="skycam-images-from">
+                        <div class="skycam-image1">
+                            <div class="text-skyCam1">
+                                <h1>20-12-2020</h1>
+                                <h3>23:57</h3>
+                                <p>photo from sky cam located at my place</p></div>                        
+                        </div>
+                        <div class="skycam-image2">
+                            <div class="text-skyCam2">
+                                <h1>20-12-2020</h1>
+                                <h3>23:57</h3>
+                                <p>photo from sky cam located at my place</p></div>
+                        </div>
                     </div> -->
                 </div>
             </div>
-            <div class="screen__wrap">
-                <div class="screen__title"><h1 class="title title_lvl_1 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Nowcasting</h1></div>
-                <div class="screen__features">
-                    <div class="s-feature">
-                        <div class="grid clearfix">
-                            <div class="grid__row clearfix">
-                                <div class="grid__cell grid__cell_pos_0 grid__cell_size_4">
-                                    <div class="grid__cell-inner">
-                                        <div class="s-feature__heading">
-                                            <div class="s-alpha">I</div>
-                                        </div>
-                                        <div class="s-feature__text">Utilities benefit greatly from forecasting of the available energy resource</div></div></div><div class="grid__cell grid__cell_pos_5 grid__cell_size_4"><div class="grid__cell-inner"><div class="s-feature__heading"><div class="s-alpha">II</div></div><div class="s-feature__text">Short-term energy security</div></div></div><div class="grid__cell grid__cell_pos_9 grid__cell_size_4"><div class="grid__cell-inner"><div class="s-feature__heading"><div class="s-alpha">III</div></div><div class="s-feature__text">Due the lack of weather stations for satisfy solar forecast energy, solar nowcasting using image processing is the solution</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skycam-images-from">
-                    <div class="skycam-image1">
-                        <div class="text-skyCam1">
-                            <h1>20-12-2020</h1>
-                            <h3>23:57</h3>
-                            <p>photo from sky cam located at my place</p></div>                        
-                    </div>
-                    <div class="skycam-image2">
-                        <div class="text-skyCam2">
-                            <h1>20-12-2020</h1>
-                            <h3>23:57</h3>
-                            <p>photo from sky cam located at my place</p></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="screen">
-            <div class="screen__back">
-                <div class="s-bg-accuracy">
-                    <div class="s-bg-accuracy__bg s-bg-top-shadow">
-                        <img class="image s-bg-accuracy__image" src="https://images.unsplash.com/photo-1595488705627-6ad0d7d7b052?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt=""></div>
-                    </div>
-                    <div class="screen__wrap">
-                        <div class="screen__title">
-                            <h1 class="title title_lvl_1 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Data Asimilation</h1></div>
-                            <div class="screen__text"><div class="static-text static-text_align_center i-font i-font_face_textbook i-font i-font_face_textbook"></div>
-                        </div>
-                        <div class="dta-asimilation-description-container">
-                            <h1><b>1) </b>Cloud forecasting by Met Services</h1>
-                            <h1><b>2) </b>Verification of cloud forecast: registers errors with using CNN and ML</h1>
-                            <h1><b>3) </b>Improves the accuracy of the next forecast by reducing biases</h1>
-                        </div>
-                    </div></div>
-        </div>
-        <div class="screen">
-            <div class="screen__back">
-                <div class="s-bg-accuracy">
-                    <div class="s-bg-accuracy__bg s-bg-top-shadow">
-                        <img class="image s-bg-accuracy__image" src="https://cdn.pixabay.com/photo/2015/01/14/18/54/satellite-photo-599494_960_720.jpg" alt="">
+            <div class="screen" id="data-asimilation">
+                <div class="screen__back">
+                    <div class="s-bg-prediction">
+                       
                     </div>
                 </div>
                 <div class="screen__wrap">
-                    <div class="screen__title">
-                        <h1 class="title title_lvl_1 title_align_center i-font_face_textbook i-font_face_textbook">Hyperlocal weather data</h1>
-                    </div>
-                    <div class="screen__text">
-                        <div class="static-text static-text_align_center i-font_face_textbook i-font_face_textbook">Is essential for weather sensitive industries, namely meteorology, and the energy sector, as well as for the general public and their day-to-day activities. However, there is a global lack of hyperlocal weather data.</div>
-                        <div class="static-text static-text_align_center i-font_face_textbook i-font_face_textbook">Try forecast your energy: fill the form</div>
-                        <div class="static-text static-text_align_center i-font_face_textbook i-font_face_textbook">Powered by: <a href="https://pvlib-python.readthedocs.io/en/stable/">pvlib</a></div>
-                    </div>
+                    <div class="screen__title_divido"><h1 class="title title_lvl_3 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Data Asimilation</h1></div>
+                    <div class="static-text static-text_align_center i-font i-font_face_textbook i-font i-font_face_textbook text-hero">High spatiotemporal resolution of cloud parameters for sub kilometer numerical weather prediction models. </div>
                 </div>
+                
             </div>
         </div>
-        
-        <div class="screen">
-            <div class="screen__back">
-                <div class="s-bg-accuracy">
-                    <div class="s-bg-accuracy__bg s-bg-top-shadow">
-                        <img class="image s-bg-accuracy__image" src="https://cdn.vox-cdn.com/thumbor/XsoQi_RDxleNGmGX-nT3QO1g0X0=/0x0:999x749/1200x800/filters:focal(0x0:999x749)/cdn.vox-cdn.com/uploads/chorus_image/image/49633765/solar-panel-sun.0.jpg" alt=""></div>
-                    </div>
-                </div>
-                <div class="screen__wrap">
-                    <div class="screen__title">
-                        <h1 class="title title_lvl_1 title_align_center i-font_face_textbook i-font_face_textbook">Forecast Your Solar Power Production</h1>
-                    </div>
-			<a class="btn btn-light btn-xl" id="btn-forecast" href="forecast/">Forecast your energy in your Location!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
+  
         <div class="screen screen_color_black" id="preorder">
             <div class="screen__back">
                 <div class="s-bg-laptop" style="background-image: url(https://images.unsplash.com/photo-1518277748204-ba05cb84d9f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)"></div></div>
                 <div class="screen__wrap">
                     <div class="screen__title">
-                        <h1 class="title title_lvl_1 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Coming soon</h1></div>
+                        <h1 class="title title_lvl_1 title_align_center i-font i-font_face_textbook i-font i-font_face_textbook" style="color: black;">Stay Tuned</h1></div>
                         <div class="screen__text">
                             <div class="static-text2 static-text_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Personal Weather Station (PWS)</div>
                         </div>
                         <div class="screen__append">                            
-                            <div class="services-container">
-                                <div class="sky-cam-service"></div>
+                            <div class="services-container">                                
                                 <div class="aplication-service"></div>
                             </div>
                             <div class="contactform">
-                                <h2>Pre order</h2>
+                                <h2 style="text-transform: uppercase;">Want us to keep you posted on updates? Leave your contact details here</h2>
                                 <div class="formBox">
                                     <div class="inputBox w50">
-                                        <input type="text" name="" required>
-                                        <span>First Name</span>
+                                        <span>What's your name? (First name and last name)</span>
+                                        <input type="text" name="" required>                                        
                                     </div>
                                     <div class="inputBox w50">
-                                        <input type="text" name="" required>
-                                        <span>Last Name</span>
-                                    </div>
-                                    <div class="inputBox w50">
-                                        <input type="text" name="" required>
-                                        <span>Email Adress</span>
-                                    </div>
-                                    <div class="inputBox w50">
-                                        <input type="text" name="" required>
-                                        <span>Mobil number</span>
-                                    </div>
-                                    <div class="inputBox w100">
-                                        <textarea name="" required></textarea>
-                                        <span>Write your message here..</span>
-                                    </div>
+                                        <span>What's your email address?</span>
+                                        <input type="text" name="" required>                                        
+                                    </div>                                    
                                     <div class="inputBox w100">
                                         <input type="submit" value="send" id="sendOrder">                                        
                                     </div>
@@ -326,8 +256,10 @@
                         <div class="image-member-team"></div>
                         <div class="image-member-team"></div>
                         <div class="image-member-team"></div>
-                        <div class="image-member-team"></div>
-                        <div class="image-member-team"></div>
+                        <div class="image-member-team"></div>                        
+                    </div>
+                    <div class="KIC-climate">                        
+                            <h1>Supported by:</h1>                                               
                     </div>
                 </div>
             </div>

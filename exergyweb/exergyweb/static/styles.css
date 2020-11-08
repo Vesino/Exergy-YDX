@@ -504,13 +504,13 @@ html[lang=kk] .service-name {
  width:100%
 }
 .title {
- margin:0;
- padding:0;
- font-weight:400;
- text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.7);
+ text-transform: uppercase;
+ font-weight: bold;
+ font-size: 1.5em;
+ line-height: 1.5em;
+ color: white;
 }
-.title_lvl_1,
-.title_lvl_2 {
+.title_lvl_1 {
  margin:0 0 .4em;
  line-height:1.2em
 }
@@ -518,7 +518,7 @@ html[lang=kk] .service-name {
  font-size:3.69em
 }
 .title_lvl_2 {
- font-size:2.8em
+ font-size:1.8em
 }
 .title_lvl_3 {
  margin:0 0 .2em;
@@ -537,13 +537,11 @@ html[lang=kk] .service-name {
 }
 .contactform {
     position: relative;
-    width: 15%;
+    width: 50%;
     justify-content: center;
     display: flex;
     align-items: center;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    height: 50%;
+    height: 100%;
 }
 .contactform h2 {
     position: absolute;
@@ -556,19 +554,10 @@ html[lang=kk] .service-name {
 .services-container {
     display: flex;
     flex-wrap: wrap;
-    width: 679px;
-    margin-right: auto;
-    height: 430px;
+    width: 50%;    
+    height: 100%;
 }
-.services-container .sky-cam-service {
-    background-image: url("https://i.postimg.cc/vTctnZ4R/skycam-ren-5.png");
-    height: 60%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    width: 50%;
-}
+
 .services-container .aplication-service {
     background-image: url("https://i.postimg.cc/cCbTk8p4/App-UI-new.png");
     height: 60%;
@@ -576,7 +565,7 @@ html[lang=kk] .service-name {
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-    width: 50%;
+    width: 100%;
 }
 @media screen and (max-width: 874px){
     .services-container {
@@ -1181,14 +1170,9 @@ position: relative;
  float:left;
  margin:0 25px 0 0
 }
-@font-face {
- font-family:textbook;
- src:local('textbook');
- src:url(//yastatic.net/islands/_/1wUguRKdVPX0Lw2dlQ1I-l4X0hI.woff),
- url(//yastatic.net/islands/_/_qMiA1SBxUbup2B5BieefMuSpsk.ttf)
-}
+
 .i-font_face_textbook {
- font-family:textbook
+ font-family: 'Montserrat', sans-serif;
 }
 .header2 {
  position:relative;
@@ -1724,7 +1708,7 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
 .screen {
  position:relative;
  overflow:hidden;
- height:700px;
+ height:550px;
  margin:0 auto;
  padding:40px 0;
  text-align:center;
@@ -1876,7 +1860,7 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
 .earths-container img {
     margin-top: 3rem;
     width: 295px;
-    height: 259px;
+    height: 290px;
 }
 @media screen and (max-width: 649px){
     #earths {
@@ -1889,7 +1873,7 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
 
 .team-container {
     display: grid;
-    grid-template: repeat(3, 180px) / repeat(2,1fr);
+    grid-template: repeat(1, 180px) / repeat(5,1fr);
     height: 100%;
 }
 .team-container div {
@@ -1939,3 +1923,45 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
     position: relative;
     margin: 30px;
 }
+.KIC-climate {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+
+}
+
+.container-nowcasting-dataAsimilation {
+    position: relative;
+    display: flex;
+    padding: 0;
+}
+.container-nowcasting-dataAsimilation .screen {
+    width: 50%;
+}
+.screen__title_absoluto {
+    position: absolute;
+    z-index: 2;
+    left: 20%;
+}
+.screen__title_divido {
+    margin-top: 7%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+  }
