@@ -366,6 +366,20 @@ html[lang=kk] .service-name {
     margin: 30px 20px 0 20px;
     right: 60px;
 }
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
 .dta-asimilation-description-container{
     display: flex;
     justify-content: space-between;

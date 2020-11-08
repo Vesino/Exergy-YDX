@@ -24,10 +24,10 @@ import requests
 import io
 
 def index(request):
-    return render(None, 'index.html')
+#    return render(None, 'index.html')
 
 
-def sky_cam(request):
+#def sky_cam(request):
     TOKEN = 'Ss5giw2X76IAAAAAAAAUNpW5cbpxT1pHzTL--XHaHW2QLer1iP-CCCqzqi3Mn2jQ'
     dbx = dropbox.Dropbox(TOKEN)
 
@@ -51,8 +51,8 @@ def sky_cam(request):
 
                }
 
-    return render(request, 'sky_cam.html', context)
-
+    #return render(request, 'sky_cam.html', context)
+    return render(request, 'index.html', context)
 
 def undotted_keys(dict):
     """
@@ -97,9 +97,11 @@ def iterate_response(r):
     
 def all_folders(request):
 
-    folder_contents = dropbox_list_folder("/raspberrypi4_bld4/exposure_fusion_whole")
+    folders_raspberrypi4_bld4 = dropbox_list_folder("/raspberrypi4_bld4/exposure_fusion_whole")
+    folders_raspberrypi = dropbox_list_folder("/raspberrypi/exposure_fusion_whole")
     context = {
-        "folder_contents": folder_contents,
+        "folders_raspberrypi4_bld4": folders_raspberrypi4_bld4,
+        "folders_raspberrypi": folders_raspberrypi,
     }
     return render(request, "all_folders.html", context)
 

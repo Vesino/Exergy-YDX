@@ -191,20 +191,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="skycam-images-from">
-                    <div class="skycam-image1">
-                        <div class="text-skyCam1">
-                            <h1>20-12-2020</h1>
-                            <h3>23:57</h3>
-                            <p>photo from sky cam located at my place</p></div>                        
-                    </div>
-                    <div class="skycam-image2">
-                        <div class="text-skyCam2">
-                            <h1>20-12-2020</h1>
-                            <h3>23:57</h3>
-                            <p>photo from sky cam located at my place</p></div>
-                    </div>
-                </div>
+                
+                <input type="button" value="Download whole-sky images" onclick="window.open('download_data')">
+             	
+             	<div class="flex-container">
+		    <div class="flex-child rpi">
+			<img src={{img_link_raspberrypi|safe}} height="200" width="250"/>
+			<h3>{{img_datetime_raspberrypi4|safe}}</h3>
+		        <p>7624, Pécs, Szigeti út 27</p>
+		    </div>
+		    <div class="flex-child rpi4">
+			<img src={{img_link_raspberrypi4_bld4|safe}} height="200" width="250"/>
+			<h3>{{img_datetime_raspberrypi4_bld4|safe}}</h3>
+		        <p>7624, Pécs, Ifjúság útja 6</p>
+		    </div>
+		</div>
+
+        </div>
             </div>
         </div>
         <div class="screen">
