@@ -520,7 +520,7 @@ background: linear-gradient(180deg, rgba(55,55,55,1) 0%, rgba(125,125,125,1) 100
  line-height:1.2em
 }
 .title_lvl_1 {
- font-size:3.69em
+ font-size:2.69em
 }
 .title_lvl_2 {
  font-size:1.8em
@@ -1871,7 +1871,7 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
     justify-content: center;   
 }
 .earths-container img {
-    margin-top: 3rem;
+    margin-top: 0;
     width: 295px;
     height: 290px;
 }
@@ -1948,7 +1948,7 @@ html.utilityfocus .link_theme_normal.link_focused_yes {
 .KIC-climate {
     position: absolute;
     width: 100%;
-    top: 60%;
+    top: 67%;
 }
 .logoKIC {
     background-image: url("https://i.postimg.cc/fbc2Wy9B/EIT-Climate-KIC-EU-flag.png");
@@ -2034,13 +2034,36 @@ display: flex;
 width: 50%;
 }
 .flex-child {
-    flex: 1;
-    border: 2px solid yellow;
+    flex: 1; 
 }  
-
+img {
+    border-radius: 30%;
+} 
 .flex-child:first-child {
     margin-right: 20px;
-} 
+}
 
+.industrial {
+    height: 400px;
+}
+
+.name-member{
+ position: absolute;
+ top: 90%;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+ width: 100%;
+}
+.description-member {
+ position: absolute;
+ bottom: -35%;
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+}
 
 
