@@ -116,7 +116,7 @@
                                     <div>
             </div>
         </div>
-        <div class="screen">
+        <div class="screen" id="screen-imagesSkycam">
             <div class="screen__back">
                 <div class="s-bg-satellite" style="background-image: url(https://i.postimg.cc/LXxjZNTp/roof-Exergy-skycam.jpg)">
                 <!-- <input type="button" value="Download whole-sky images" onclick="window.open('download_data')"> -->
@@ -139,8 +139,7 @@
         <input type="button" value="Download whole-sky images" onclick="window.open('download_data')">
                 </div>
             </div>   
-        </div>
-        
+        </div>    
         <div class="screen" id="industrial">
             <div class="screen__back">
                 <div class="s-bg-accuracy">
@@ -179,7 +178,6 @@
                 </div>
             </div>
         </div>
-
         <div class="screen screen_color_black" id="preorder">
             <div class="screen__back">
                 <div class="s-bg-laptop" style="background-image: url(https://images.unsplash.com/photo-1518277748204-ba05cb84d9f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)"></div></div>
@@ -189,30 +187,23 @@
                         <div class="screen__text">
                             <div class="static-text2 static-text_align_center i-font i-font_face_textbook i-font i-font_face_textbook">Personal Weather Station (PWS)</div>
                         </div>
-                        <div class="screen__append">                            
-                            <div class="services-container">                                
-                                <div class="aplication-service"></div>
-                            </div>
+                        <div class="flex-container-preorder">
+                            <div class="aplication-service"></div>
                             <div class="contactform">
                                 <h2 style="text-transform: uppercase;">Want us to keep you posted on updates? Leave your contact details here</h2>
-                                <div class="formBox">
-                                    <div class="inputBox w50">
-                                        <span>What's your name? (First name and last name)</span>
-                                        <input type="text" name="" required>                                        
-                                    </div>
-                                    <div class="inputBox w50">
-                                        <span>What's your email address?</span>
-                                        <input type="text" name="" required>                                        
-                                    </div>                                    
-                                    <div class="inputBox w100">
+                                <form action="POST">                                                                            
+                                        <input type="text" name="" placeholder="What's your name? (First name and last name)" required>                                        
+                                        <input type="text" name="" placeholder="What's your email address?" required>                                                                                                                
                                         <input type="submit" value="send" id="sendOrder">                                        
-                                    </div>
+                                    </form>
                                 </div>
+                        </div>
+                </div>
+                            </div>
+                        </div>                                                                                                                                         
                             </div>
                         </div>
-                    </div>
-        </div>
-        <div class="screen">
+        <div class="screen" id="screen-team">
             <div class="screen__back">
                 <div class="s-bg-accuracy">
                     <div class="s-bg-accuracy__bg s-bg-top-shadow">
