@@ -2,6 +2,7 @@
 from django.shortcuts import HttpResponse, render, redirect
 from django.http.response import StreamingHttpResponse
 from .forms import location_pv
+from marketing.models import Stay_Tuned
 from django.template import RequestContext
 
 """Libraries for functions """
@@ -25,6 +26,13 @@ import io
 
 def index(request):
 #    return render(None, 'index.html')
+    if request.method == "POST":
+        email = request.POST["email"]
+        name = request.POST["name"]
+        new_Stay_tuned = Stay_Tuned()
+        new_Stay_tuned.email = email
+        new_Stay_tuned.name = name
+        new_Stay_tuned.save()
 
 
 #def sky_cam(request):

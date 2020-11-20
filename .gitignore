@@ -17,3 +17,4 @@ env
 ._*
 *.jpg
 *.png
+*.sqlite3

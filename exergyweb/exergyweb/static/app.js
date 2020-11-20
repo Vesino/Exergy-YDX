@@ -1,9 +1,9 @@
-const sendOrderButton = document.querySelector('#sendOrder')
+// const sendOrderButton = document.querySelector('#sendOrder')
 
-sendOrderButton.addEventListener('click', (e) => {
-    e.preventDefault()
-    alert("We are currently working on this form, please accept our appologies")
-})
+// sendOrderButton.addEventListener('click', (e) => {
+//     e.preventDefault()
+//     alert("We are currently working on this form, please accept our appologies")
+// })
 
 function toggle_raspberrypi() {
   var x = document.getElementById("raspberrypi");

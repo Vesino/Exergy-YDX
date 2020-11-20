@@ -52,6 +52,7 @@ INSTALLED_APPS = [
 
 
     'exergyapp',
+    'marketing',
     'crispy_forms',
 ]
 

@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png" href="https://i.postimg.cc/J06dwFk8/exergyblncomini.png"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="{% static 'styles.css' %}">
-    <title>EXERGY.co</title>
+    <title>EXERGYtech.co</title>
 </head>
 <body class="b-pagina b-pagina__body">
     <!-- <div class="head">
@@ -191,9 +191,10 @@
                             <div class="aplication-service"></div>
                             <div class="contactform">
                                 <h2 style="text-transform: uppercase;">Want us to keep you posted on updates? Leave your contact details here</h2>
-                                <form action="POST">                                                                            
-                                        <input type="text" name="" placeholder="What's your name? (First name and last name)" required>                                        
-                                        <input type="text" name="" placeholder="What's your email address?" required>                                                                                                                
+                                <form action="." method="POST">
+                                        {% csrf_token %}                                                                            
+                                        <input type="email" name="email" id="email" placeholder="What's your email address?" required>                                        
+                                        <input type="text" name="name" id="name" placeholder="What's your name? (First name and last name)" required>                                                                                                                
                                         <input type="submit" value="send" id="sendOrder">                                        
                                     </form>
                                 </div>
